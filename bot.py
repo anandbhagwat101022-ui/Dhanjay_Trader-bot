@@ -4,7 +4,7 @@ from telegram.request import HTTPXRequest
 import random
 from datetime import datetime, timedelta
 
-TOKEN = "My-code"
+TOKEN = "8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY"
 
 # RESULT FUNCTION (OUTSIDE)
 async def send_result(context):
