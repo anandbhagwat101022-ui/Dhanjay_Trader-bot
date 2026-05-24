@@ -59,8 +59,6 @@ current_time = int(time.time())
 # Store when signal created
 signal_time = current_time
 
-# Ignore if older than 60 sec
-if int(time.time()) - signal_time > 60:
 
 import os
 
