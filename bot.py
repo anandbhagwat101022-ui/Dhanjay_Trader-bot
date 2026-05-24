@@ -4,14 +4,13 @@ from telegram.request import HTTPXRequest
 import random
 from datetime import datetime, timedelta
 import os
-import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("TOKEN")  # ✅ correct key
 
-print("🔥 TOKEN VALUE:", TOKEN)
+if not TOKEN:
+    raise ValueError("❌ TOKEN not found")
 
-# ✅ TOKEN from Render ENV (IMPORTANT)
-TOKEN = os.getenv("8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY").strip()
+TOKEN = TOKEN.strip()  # ✅ safe
 
 # RESULT FUNCTION
 async def send_result(context):
