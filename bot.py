@@ -131,5 +131,6 @@ app.add_error_handler(error_handler)
 
 print("Bot running...")
 
-# RUN
+import os
+TOKEN = os.getenv("8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY")# RUN
 app.run_polling()
