@@ -4,6 +4,11 @@ from telegram.request import HTTPXRequest
 import random
 from datetime import datetime, timedelta
 import os
+import os
+
+TOKEN = os.getenv("TOKEN")
+
+print("🔥 TOKEN VALUE:", TOKEN)
 
 # ✅ TOKEN from Render ENV (IMPORTANT)
 TOKEN = os.getenv("8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY")
