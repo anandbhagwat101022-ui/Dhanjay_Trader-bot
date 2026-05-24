@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import os
 
 # ✅ TOKEN from Render ENV (IMPORTANT)
-TOKEN = os.getenv("8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY")
+TOKEN = os.getenv(8639623533:AAFypjCIe5q2WIsTGe7Ws-P2eDVz3tAh2xY)
 
 # RESULT FUNCTION
 async def send_result(context):
